@@ -1,15 +1,23 @@
 PODS:
-  - FLAnimatedImage (1.0.8)
-  - SDWebImage (3.7.3):
-    - SDWebImage/Core (= 3.7.3)
-  - SDWebImage/Core (3.7.3)
+  - Fabric (1.6.9)
+  - FLAnimatedImage (1.0.12)
+  - Optimizely-iOS-SDK (1.7.0)
+  - SDWebImage (3.8.2):
+    - SDWebImage/Core (= 3.8.2)
+  - SDWebImage/Core (3.8.2)
 
 DEPENDENCIES:
+  - Fabric
   - FLAnimatedImage (~> 1.0)
+  - Optimizely-iOS-SDK
   - SDWebImage
 
 SPEC CHECKSUMS:
-  FLAnimatedImage: f9422f796135aff80d8c00b2afc48015bb746e24
-  SDWebImage: 1d2b1a1efda1ade1b00b6f8498865f8ddedc8a84
+  Fabric: bc5bec42cef4bcf1ee3ce0e218fc518e4b44dfbb
+  FLAnimatedImage: 4a0b56255d9b05f18b6dd7ee06871be5d3b89e31
+  Optimizely-iOS-SDK: e406016e617f84e823227c52131341dc20721319
+  SDWebImage: 098e97e6176540799c27e804c96653ee0833d13c
 
-COCOAPODS: 0.39.0
+PODFILE CHECKSUM: 4e1110e47d8686a542f8d95707da0120d0a43cbb
+
+COCOAPODS: 1.0.1

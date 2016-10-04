@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		03FB07BE75D759F73395E2FB /* libPods-DribbbleReader.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5188914BBCA5E53E69DBADB5 /* libPods-DribbbleReader.a */; };
 		9A0EBC311B0F4C10006FBD58 /* CAPSPageMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A0EBC301B0F4C10006FBD58 /* CAPSPageMenu.swift */; };
 		9A0EBC331B0F4C80006FBD58 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A0EBC321B0F4C80006FBD58 /* BaseViewController.swift */; };
 		9A0EBC381B0F59EC006FBD58 /* ShotCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A0EBC361B0F59EC006FBD58 /* ShotCollectionViewController.swift */; };
@@ -31,6 +32,7 @@
 		9AF6AB971B0888BE00FD07E6 /* HttpService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AF6AB961B0888BE00FD07E6 /* HttpService.swift */; };
 		9AF6AB9B1B0892EF00FD07E6 /* ShotCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AF6AB991B0892EF00FD07E6 /* ShotCollectionViewCell.swift */; };
 		9AF6AB9C1B0892EF00FD07E6 /* ShotCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9AF6AB9A1B0892EF00FD07E6 /* ShotCollectionViewCell.xib */; };
+		CF2FFC92F0A22C42FCDC4F30 /* libPods-DribbbleReaderTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 49D26C6F87B85312FC3A0B06 /* libPods-DribbbleReaderTests.a */; };
 		D84485011BFC3F3A0057AD1C /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D84485001BFC3F3A0057AD1C /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
 
@@ -45,6 +47,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1DAC2B754718CBFA8BAC3532 /* Pods-DribbbleReader.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DribbbleReader.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DribbbleReader/Pods-DribbbleReader.debug.xcconfig"; sourceTree = "<group>"; };
+		49D26C6F87B85312FC3A0B06 /* libPods-DribbbleReaderTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DribbbleReaderTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5188914BBCA5E53E69DBADB5 /* libPods-DribbbleReader.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DribbbleReader.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A0EBC301B0F4C10006FBD58 /* CAPSPageMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CAPSPageMenu.swift; sourceTree = "<group>"; };
 		9A0EBC321B0F4C80006FBD58 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		9A0EBC361B0F59EC006FBD58 /* ShotCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShotCollectionViewController.swift; sourceTree = "<group>"; };
@@ -74,7 +79,10 @@
 		9AF6AB961B0888BE00FD07E6 /* HttpService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HttpService.swift; sourceTree = "<group>"; };
 		9AF6AB991B0892EF00FD07E6 /* ShotCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShotCollectionViewCell.swift; sourceTree = "<group>"; };
 		9AF6AB9A1B0892EF00FD07E6 /* ShotCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ShotCollectionViewCell.xib; sourceTree = "<group>"; };
+		9E9CF992B41D661694DC23D7 /* Pods-DribbbleReaderTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DribbbleReaderTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DribbbleReaderTests/Pods-DribbbleReaderTests.debug.xcconfig"; sourceTree = "<group>"; };
 		D84485001BFC3F3A0057AD1C /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		DDFAB2BB3B9324788129CB48 /* Pods-DribbbleReaderTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DribbbleReaderTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DribbbleReaderTests/Pods-DribbbleReaderTests.release.xcconfig"; sourceTree = "<group>"; };
+		EC3D40DAB5633E3119261D4E /* Pods-DribbbleReader.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DribbbleReader.release.xcconfig"; path = "Pods/Target Support Files/Pods-DribbbleReader/Pods-DribbbleReader.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				03FB07BE75D759F73395E2FB /* libPods-DribbbleReader.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -89,12 +98,33 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF2FFC92F0A22C42FCDC4F30 /* libPods-DribbbleReaderTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		139B870BC211B581A932155A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1DAC2B754718CBFA8BAC3532 /* Pods-DribbbleReader.debug.xcconfig */,
+				EC3D40DAB5633E3119261D4E /* Pods-DribbbleReader.release.xcconfig */,
+				9E9CF992B41D661694DC23D7 /* Pods-DribbbleReaderTests.debug.xcconfig */,
+				DDFAB2BB3B9324788129CB48 /* Pods-DribbbleReaderTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7D339558B7F74861CE5518C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5188914BBCA5E53E69DBADB5 /* libPods-DribbbleReader.a */,
+				49D26C6F87B85312FC3A0B06 /* libPods-DribbbleReaderTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		9A1863781B08BD1F0061BBF4 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
@@ -127,6 +157,8 @@
 				9AF6AB611B0824C000FD07E6 /* DribbbleReader */,
 				9AF6AB771B0824C000FD07E6 /* DribbbleReaderTests */,
 				9AF6AB601B0824C000FD07E6 /* Products */,
+				139B870BC211B581A932155A /* Pods */,
+				7D339558B7F74861CE5518C4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -218,9 +250,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9AF6AB7E1B0824C000FD07E6 /* Build configuration list for PBXNativeTarget "DribbbleReader" */;
 			buildPhases = (
+				E95459ECDBE8B3CEDB1DEA1C /* [CP] Check Pods Manifest.lock */,
 				9AF6AB5B1B0824C000FD07E6 /* Sources */,
 				9AF6AB5C1B0824C000FD07E6 /* Frameworks */,
 				9AF6AB5D1B0824C000FD07E6 /* Resources */,
+				E21513A21D9C651300F8449E /* ShellScript */,
+				440FD2D6405B4005D2BA44C9 /* [CP] Embed Pods Frameworks */,
+				3CF948325EB78922EEBADBF9 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -235,9 +271,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9AF6AB811B0824C000FD07E6 /* Build configuration list for PBXNativeTarget "DribbbleReaderTests" */;
 			buildPhases = (
+				F82B3E0EAF9ECBA63705B39D /* [CP] Check Pods Manifest.lock */,
 				9AF6AB701B0824C000FD07E6 /* Sources */,
 				9AF6AB711B0824C000FD07E6 /* Frameworks */,
 				9AF6AB721B0824C000FD07E6 /* Resources */,
+				EB3074E6464DF5F0C5B97696 /* [CP] Embed Pods Frameworks */,
+				2367CDEDF34BCBBED242DC64 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -262,9 +301,13 @@
 				TargetAttributes = {
 					9AF6AB5E1B0824C000FD07E6 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = 7TU6673R44;
+						LastSwiftMigration = 0800;
+						ProvisioningStyle = Automatic;
 					};
 					9AF6AB731B0824C000FD07E6 = {
 						CreatedOnToolsVersion = 6.3.1;
+						LastSwiftMigration = 0800;
 						TestTargetID = 9AF6AB5E1B0824C000FD07E6;
 					};
 				};
@@ -313,6 +356,112 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2367CDEDF34BCBBED242DC64 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DribbbleReaderTests/Pods-DribbbleReaderTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3CF948325EB78922EEBADBF9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DribbbleReader/Pods-DribbbleReader-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		440FD2D6405B4005D2BA44C9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DribbbleReader/Pods-DribbbleReader-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E21513A21D9C651300F8449E /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Fabric/Fabric.framework/run\" 99c45b2ca4bcd81c23e8077b38a34bc07102c263 7f72432e96932d040af835d6ee0f76e6abf92c0b17097d11f6286b6112263c58";
+		};
+		E95459ECDBE8B3CEDB1DEA1C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EB3074E6464DF5F0C5B97696 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DribbbleReaderTests/Pods-DribbbleReaderTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F82B3E0EAF9ECBA63705B39D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		9AF6AB5B1B0824C000FD07E6 /* Sources */ = {
@@ -465,39 +614,49 @@
 		};
 		9AF6AB7F1B0824C000FD07E6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1DAC2B754718CBFA8BAC3532 /* Pods-DribbbleReader.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Distribution: Naoya Sugimoto (S8GGSYBVK5)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 7TU6673R44;
 				INFOPLIST_FILE = DribbbleReader/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.naoyashiga.DribbbleReader;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "68c2338e-93fc-4e8f-ba77-cec9e4ea24a5";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "DribbbleReader/DribbbleReader-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		9AF6AB801B0824C000FD07E6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC3D40DAB5633E3119261D4E /* Pods-DribbbleReader.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Distribution: Naoya Sugimoto (S8GGSYBVK5)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 7TU6673R44;
 				INFOPLIST_FILE = DribbbleReader/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.naoyashiga.DribbbleReader;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "68c2338e-93fc-4e8f-ba77-cec9e4ea24a5";
+				PROVISIONING_PROFILE = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "DribbbleReader/DribbbleReader-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
 		9AF6AB821B0824C000FD07E6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E9CF992B41D661694DC23D7 /* Pods-DribbbleReaderTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -513,12 +672,14 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.naoyashiga.DribbbleReader;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DribbbleReader.app/DribbbleReader";
 			};
 			name = Debug;
 		};
 		9AF6AB831B0824C000FD07E6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DDFAB2BB3B9324788129CB48 /* Pods-DribbbleReaderTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -530,6 +691,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.naoyashiga.DribbbleReader;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DribbbleReader.app/DribbbleReader";
 			};
 			name = Release;
