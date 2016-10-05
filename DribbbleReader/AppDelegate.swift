@@ -9,6 +9,9 @@
 import UIKit
 import Fabric
 import Optimizely
+import SonomaCore
+import SonomaCrashes
+import SonomaAnalytics
 
 internal var popularTitle: OptimizelyVariableKey = OptimizelyVariableKey.optimizelyKey(withKey: "popTitle", defaultNSString: "Popular");
 
@@ -38,6 +41,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         Optimizely.start(withAPIToken: "AANVwkUBmRvQmVkchpCs8M9JeDnVFM27~7546314657", launchOptions:launchOptions)
 
+        SNMSonoma.start("4c55aee2-168e-4d8d-b01a-8596b6c61b61", withFeatures:[SNMAnalytics.self, SNMCrashes.self])
+        
         return true
     }
     
@@ -45,6 +50,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         if Optimizely.handleOpen(url as URL!) {
             return true
         }
+        
         return false
     }
 
